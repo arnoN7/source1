@@ -15,7 +15,7 @@ def fake(a):
     if a=='last_name':
         return fake.last_name()
     if a=='birthdate':
-        return fake.date_of_birth(minimum_age=18, maximum_age=90)
+        return fake.date_of_birth(minimum_age=30, maximum_age=92)
     if a=='id':
         return fake.pyint()
     else:
